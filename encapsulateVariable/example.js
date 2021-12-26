@@ -1,16 +1,17 @@
-// before refactoring the code looks like below
+const { getDefaultOwner, setDefaultOwner }  = require('./owner.js')
+// import  from "../encapsulateRecord/owner";
 
-let defaultOwner = {firstName: "Martin", lastName: "Fowler"}
+// after refactoring the code looks like below
 
 const spaceship = {}
-spaceship.owner = defaultOwner // read the variable
-defaultOwner = {firstName: "Rebecca", lastName: "Parsons"} // update the variable
-defaultOwner.firstName = 42 // i just put 42 here instead of a valid string. maybe we want to put validation checks here
+spaceship.owner = getDefaultOwner() // read the variable
+console.log(spaceship.owner)
+setDefaultOwner({ firstName: "Sun", lastName: "Sunrise" })
+console.log(getDefaultOwner()) // set variable
+
+spaceship.owner.firstName = 42 // but we can still set the variables like this which we don't want
+console.log(spaceship.owner)
 
 /**
-    Note: this is useful for mutable data only. because Immutable Data is anyways not going to be changed so we
-        don't need to monitor how it's used and put validations for updating it.
-    why to encapsulating data ??
-        a. It provides a clear point to monitor changes and use of the data.
-        b. I can easily add validation or consequential logic on the updates.
+    now we can put validations in the funcs where we are setting "defaultOwner" variable
 */
