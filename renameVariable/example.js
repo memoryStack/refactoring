@@ -22,4 +22,5 @@ const oldName = newName
  *          const oldName = "old value"
             const newName = oldName
         but above approach is a little bit better. Think why ?
+    Note: If there are references from another code base, the variable is a published variable, and you cannot do this refactoring.
  */
