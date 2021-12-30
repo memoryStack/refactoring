@@ -1,0 +1,22 @@
+Extract Function (106)
+Inline Function(115)
+Move Function (198)
+Split Variable (240)
+Replace Temp with Query (178)
+Replace Inline Code with Function Call (222)
+Slide Statements (223)
+Move Statements to Callers (217)
+Inline Variable (123)
+Change Function Declaration (124)
+Extract Variable (119)
+Encapsulate Variable (132) (documented properly in github)
+Encapsulate Record (162)
+Rename Variable
+Introduce Parameter Object (140)
+	refactorings which will follow
+		a. Change Function Declaration
+		
+
+Combine Functions into Class (144)
+Combine Functions Into Transform
+Split Phase
