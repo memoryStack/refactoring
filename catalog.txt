@@ -21,6 +21,12 @@ Inline Variable (123) DONE
 
 Rename Method DONE
 
+Add Parameter
+	refactorings which are pre-requisite
+		a. Introduce Assertion (DONE)
+
+Remove Parameter
+
 Change Function Declaration (124)
 	refactorings which are pre-requisite
 		a. Rename Method
