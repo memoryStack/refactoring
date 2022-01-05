@@ -25,7 +25,7 @@ Add Parameter DONE
 	refactorings which are pre-requisite
 		a. Introduce Assertion (DONE)
 
-Remove Parameter
+Remove Parameter (looks like this is similar as above)
 
 Change Function Declaration (124)
 	refactorings which are pre-requisite
