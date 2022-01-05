@@ -14,10 +14,12 @@ Slide Statements (223)
 
 Move Statements to Callers (217)
 
-Inline Variable (123)
+Inline Variable (123) DONE
 	pre-requisite refactorings
 		a. inline temp
 	it's inverse of "Extract Variable"
+
+Rename Method DONE
 
 Change Function Declaration (124)
 	refactorings which are pre-requisite
