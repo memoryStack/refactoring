@@ -21,7 +21,7 @@ Inline Variable (123) DONE
 
 Rename Method DONE
 
-Add Parameter
+Add Parameter DONE
 	refactorings which are pre-requisite
 		a. Introduce Assertion (DONE)
 
