@@ -15,7 +15,7 @@ const oldName = newName
 /**
  * using this approach we can replace "oldName" with "newName" slowly slowly over multiple iterations.
  * and once the replacement is done 100% then we can simply delete/comment statement "const oldName = newName"
- * and after removing it if there are some problems occur then we can again uncommet the statement without much hassle.
+ * and after removing it if there are some problems occur then we can again un-comment the statement without much hassle.
  * 
  * Note: from personal experience
  *      i was doing it like below earlier
