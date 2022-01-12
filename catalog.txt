@@ -25,7 +25,7 @@ Add Parameter DONE
 	refactorings which are pre-requisite
 		a. Introduce Assertion (DONE)
 
-Remove Parameter (looks like this is similar as above)
+Remove Parameter (looks like this is similar as above so DONE)
 
 Change Function Declaration (124)
 	refactorings which are pre-requisite
@@ -39,7 +39,7 @@ Encapsulate Variable (132) DONE
 
 Encapsulate Record (162)
 
-Rename Variable
+Rename Variable DONE
 
 Introduce Parameter Object (140) DONE
 	refactorings which will follow
@@ -47,7 +47,7 @@ Introduce Parameter Object (140) DONE
 
 Combine Functions into Class (144)
 	refactorings which will follow
-		a. Encapsulate Record
+		a. "Encapsulate Record"
 		b. "Introduce Parameter Object" if the arguments have yet been grouped (and are groupable)
 		c. "Move Function" to newly created class
 		d. "Extract Function" the bit of logic which manipulates the encapsulated record in first step
