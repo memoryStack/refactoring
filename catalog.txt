@@ -37,7 +37,7 @@ Extract Variable (119) DONE
 
 Encapsulate Variable (132) DONE
 
-Encapsulate Record (162)
+Encapsulate Record (162) PARTLY DONE
 
 Rename Variable DONE
 
