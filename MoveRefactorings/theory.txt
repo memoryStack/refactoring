@@ -1,0 +1,9 @@
+
+we move things so that they end up in a place where they belong. and they are easy to use and
+modify. this all results in a good modular design for software and which is the heart of software
+development.
+
+Hints to note if moving an element is needed or not:
+    if an element calls more elements from other contexts/scopes rather
+    than the one which it is in right now, probably it's a good sign to
+    move that element to another context.
