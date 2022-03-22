@@ -14,7 +14,7 @@ Slide Statements (223)
 
 Move Statements to Callers (217)
 
-Inline Variable (123) DONE
+Inline Variable (123) DON
 	pre-requisite refactorings
 		a. inline temp
 	it's inverse of "Extract Variable"
