@@ -1,57 +1,165 @@
-Extract Function (106)
+Note: This Catalog is taken from Martin Fowler's Website https://refactoring.com/catalog/
 
-Inline Function(115)
+Change Function Declaration
+  Add Parameter
+  Change Signature
+  Remove Parameter
+  Rename Function
+  Rename Method
 
-Move Function (198)
+Change Reference To Value
 
-Split Variable (240)
+Change Value To Reference
 
-Replace Temp with Query (178)
+Collapse Hierarchy
 
-Replace Inline Code with Function Call (222)
-
-Slide Statements (223)
-
-Move Statements to Callers (217)
-
-Inline Variable (123) DON
-	pre-requisite refactorings
-		a. inline temp
-	it's inverse of "Extract Variable"
-
-Rename Method DONE
-
-Add Parameter DONE
-	refactorings which are pre-requisite
-		a. Introduce Assertion (DONE)
-
-Remove Parameter (looks like this is similar as above so DONE)
-
-Change Function Declaration (124)
-	refactorings which are pre-requisite
-		a. Rename Method
-		b. Add Parameter
-		c. Remove Parameter
-
-Extract Variable (119) DONE
-
-Encapsulate Variable (132) DONE
-
-Encapsulate Record (162) PARTLY DONE
-
-Rename Variable DONE
-
-Introduce Parameter Object (140) DONE
-	refactorings which will follow
-		a. Change Function Declaration
-
-Combine Functions into Class (144)
-	refactorings which will follow
-		a. "Encapsulate Record"
-		b. "Introduce Parameter Object" if the arguments have yet been grouped (and are groupable)
-		c. "Move Function" to newly created class
-		d. "Extract Function" the bit of logic which manipulates the encapsulated record in first step
+Combine Functions Into Class
 
 Combine Functions Into Transform
 
+Consolidate Conditional Expression
+
+Decompose Conditional
+
+Encapsulate Collection
+
+Encapsulate Record
+  Replace Record With DataClass
+
+Encapsulate Variable
+  Encapsulate Field
+  Self Encapsulate Field
+
+Extract Class
+
+Extract Function
+  Extract Method
+
+Extract SuperClass
+
+Extract Variable
+  Introduce Explaining Variable
+
+Hide Delegate
+
+Inline Class
+
+Inline Function
+  Inline Method
+
+Inline Variable
+  Inline Temp
+
+Introduce Assertion
+
+Introduce Parameter Object
+
+Introduce Special Case
+  Introduce Null Object
+
+Move Field
+
+Move Function
+  Move Method
+
+Move Statements Into Function
+
+Move Statements To Callers
+
+Parameterize Function
+  Parameterize Method
+
+Preserve Whole Object
+
+Pull Up Constructor Body
+
+Pull Up Field
+
+Pull Up Method
+
+Push Down Field
+
+Push Down Method
+
+Remove Dead Code
+
+Remove Flag Argument
+  Replace Parameter With Explicit Method
+
+Remove Middle Man
+
+Remove Setting Method
+
+Remove Subclasses
+  Replace SubClass With Fields
+
+Rename Field
+
+Rename Variable
+
+Replace Command With Function
+
+Replace Conditional With Polymorphism
+
+Replace Constructor With Factory Function
+  Replace Constructor With Factory Method
+
+Replace Control Flag With Break
+  Replace Control Flag
+
+Replace Derived Variable With Query
+
+Replace Error Code With Exception
+
+
+Replace Exception With Precheck
+  Replace Exception With Test
+
+Replace Function With Command
+  Replace Method With Method Object
+
+Replace Inline Code With Function Call
+
+Replace Loop With Pipeline
+
+Replace Magic Literal
+  Replace Magical Number With Symbolic Constants
+
+Replace Nested Conditions With Guard Clauses
+
+Replace Parameter With Query
+  Replace Parameter With Method
+
+Replace Primitive With Object
+  Replace Data Value With Object
+  Replace Type Code With Class
+
+Replace Query With Parameter
+
+Replace SubClass with Delegate
+
+Replace SuperClass with Delegate
+  Replace Inheritance With Delegation
+
+Replace Temp With Query
+
+Replace Type Code With Subclasses
+  Extract SubClass
+  Replace Type Code With State/Strategy
+
+Return Modified Value
+
+Seperate Query From Modifier
+
+Slide Statements
+  Consolidate Duplicate Conditional Fragments
+
+Split Loop
+
 Split Phase
+
+Split Variable
+  Remove Assignments To Parameters
+  Split Temp
+
+Substitute Algorithm
