@@ -83,7 +83,7 @@ Push Down Method
 
 Remove Dead Code
 
-Remove Flag Argument
+Remove Flag Argument (GRASPED)
   Replace Parameter With Explicit Method
 
 Remove Middle Man
