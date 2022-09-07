@@ -130,7 +130,7 @@ Replace Nested Conditions With Guard Clauses
 Replace Parameter With Query
   Replace Parameter With Method
 
-Replace Primitive With Object
+Replace Primitive With Object (DONE)
   Replace Data Value With Object
   Replace Type Code With Class
 
