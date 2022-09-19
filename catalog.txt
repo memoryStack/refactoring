@@ -17,9 +17,9 @@ Combine Functions Into Class
 
 Combine Functions Into Transform
 
-Consolidate Conditional Expression
+Consolidate Conditional Expression (DONE)
 
-Decompose Conditional
+Decompose Conditional (DONE)
 
 Encapsulate Collection
 
@@ -99,7 +99,7 @@ Rename Variable
 
 Replace Command With Function
 
-Replace Conditional With Polymorphism
+Replace Conditional With Polymorphism (DONE)
 
 Replace Constructor With Factory Function
   Replace Constructor With Factory Method
@@ -125,7 +125,7 @@ Replace Loop With Pipeline
 Replace Magic Literal
   Replace Magical Number With Symbolic Constants
 
-Replace Nested Conditions With Guard Clauses
+Replace Nested Conditions With Guard Clauses (DONE)
 
 Replace Parameter With Query
   Replace Parameter With Method
