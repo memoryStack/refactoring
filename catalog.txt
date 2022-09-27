@@ -147,7 +147,7 @@ Replace Type Code With Subclasses
   Extract SubClass
   Replace Type Code With State/Strategy
 
-Return Modified Value
+Return Modified Value (DONE)
 
 Seperate Query From Modifier
 
